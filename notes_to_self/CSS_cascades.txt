@@ -1,0 +1,5 @@
+- nested CSS [div div div h3{color:red;}]
+- apply to all CSS [*]
+- directlt inside HTML element....div>p or body>p{color:blue}
+- classes .class {} and class="class"  or id
+- nth-child(n) 
