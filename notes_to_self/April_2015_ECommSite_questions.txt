@@ -1,5 +1,4 @@
 - How important is it to use real git versus github user-friendly interface?
-- use img for red "dobt" icon and blue "buy this" button? dobot icon and blue button become pixilated in zoom?
 - Best file naming conventions practices? (style sheet selectors, project file names)
 - px versus em sizing for images?
 - downloaded new fonts, show up in system, but don't work in css?

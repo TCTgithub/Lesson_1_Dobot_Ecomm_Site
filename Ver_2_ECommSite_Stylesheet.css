@@ -48,3 +48,26 @@
 			        size:0.5;
 			        color:white;
 }
+
+td>a {
+    display:block;
+    width:120px;
+    height:.25px;
+    padding:9px;
+    margin:auto;
+    background-color:#01ccce;
+    /*border-color:#01ccce;
+	border-style:solid;
+    border-width:thin;*/
+    font-family:arial;
+    font-size:15px;
+	font-weight:bold;
+    text-decoration:none;
+    color:white;
+    text-align:center;
+}
+
+a.back_button_hover:hover{
+    outline:2px dashed #01ccce; /*doesn't properly outline button!*/
+	outline-offset: 5px;
+}
