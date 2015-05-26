@@ -1,0 +1,78 @@
+body {
+     background: black;
+     color: white;
+}
+
+.Dobot_logo {
+            display: inline-block;
+            width: 100px;
+            height: 70px;
+            padding: 40px 15px 10px 10px;
+            text-align: center;
+            background-color: f8695a;
+            color: white;
+            font-size: 35px;
+            font-family: Impact;
+            font-weight: 100;
+            
+}
+
+.product_name {
+              width: 350px;
+              font-size: 35px;
+              font-family: Quatro Slab;
+              font-weight: 100;              
+}
+
+.product_dimensions {
+                    color: #555a5b;
+                    font-size: 25px;
+                    font-family: LFT Etica;
+                    font-weight: 100; 
+}
+
+.product_img {
+             display: inline-block;
+             position: absolute;
+             right: 80px;
+}
+
+.product_description {
+                     width: 550px;
+                     color: #abadad;
+                     font-size: 25px;
+                     font-family: LFT Etica;
+                     font-weight: 100;
+}
+
+.product_construction {
+                      display: block;
+                      height: 100px;
+	                  width: 800px;
+                      color: #01ccce;
+                      font-size: 25px;
+                      font-family: LFT Etica;
+                      width: 300px;
+                      font-weight: 100;
+                      border: 2px #abadad;
+                      border-style:none none dashed none;
+}
+
+.product_price {
+               display: inline-block;
+               height: 100px;
+	           width: 90px;
+               color: white;
+               font-size: 25px;
+               font-family: Quatro Slab;
+               font-weight: 100;
+}
+
+.buy_button {
+             background-color: #01ccce;
+             color: white;
+             font-size: 25px;
+             font-family: LFT Etica;
+             font-weight: 100;             
+}
+
