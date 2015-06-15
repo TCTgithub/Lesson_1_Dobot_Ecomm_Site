@@ -1,78 +1,118 @@
-body {
-     background: black;
-     color: white;
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 
-.Dobot_logo {
-            display: inline-block;
-            width: 100px;
-            height: 70px;
-            padding: 40px 15px 10px 10px;
+body {
+     background-color: 1a2325;
+     padding:  2% 2% 2% 2%;
+}
+.dobot_logo {
             text-align: center;
+            width: 15%;
             background-color: f8695a;
             color: white;
             font-size: 35px;
             font-family: Impact;
             font-weight: 100;
-            
 }
 
-.product_name {
-              width: 350px;
+.product_heading {
+              color: white;
+              width: 30%;
               font-size: 35px;
               font-family: Quatro Slab;
-              font-weight: 100;              
+              font-weight: 100; 
+              padding-top: 95px;              
 }
 
-.product_dimensions {
+.product_subheading {
                     color: #555a5b;
                     font-size: 25px;
                     font-family: LFT Etica;
                     font-weight: 100; 
-}
-
-.product_img {
-             display: inline-block;
-             position: absolute;
-             right: 80px;
+                    line-height: 3;
 }
 
 .product_description {
-                     width: 550px;
                      color: #abadad;
+                     width: 27%;
                      font-size: 25px;
                      font-family: LFT Etica;
                      font-weight: 100;
+                     line-height: 1.5;
+                     padding:  20px 0px 20px 0px;
 }
 
-.product_construction {
-                      display: block;
-                      height: 100px;
-	                  width: 800px;
-                      color: #01ccce;
-                      font-size: 25px;
-                      font-family: LFT Etica;
-                      width: 300px;
-                      font-weight: 100;
-                      border: 2px #abadad;
-                      border-style:none none dashed none;
+.product_link {
+               display: block;      
+               color: #01ccce;
+               font-size: 25px;
+               font-family: LFT Etica;
+               font-weight: 100;
+               border-bottom: 2px dotted white;
+               padding: 10px 0px 20px 0px;
+               margin: 0px 0px 20px 0px;
 }
 
 .product_price {
-               display: inline-block;
-               height: 100px;
-	           width: 90px;
                color: white;
                font-size: 25px;
                font-family: Quatro Slab;
                font-weight: 100;
 }
 
-.buy_button {
+.product_button {
              background-color: #01ccce;
              color: white;
              font-size: 25px;
              font-family: LFT Etica;
-             font-weight: 100;             
+             font-weight: 100;            
 }
 
+.item_separator {
+             height: 1px;
+             border-bottom:1px solid white;
+             margin: 40px 0 40px 0;
+}
