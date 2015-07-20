@@ -47,13 +47,15 @@ table {
 body {
      background-color: 1a2325;
      padding:  2% 2% 2% 2%;
+     
 }
 .dobot_logo {
             text-align: center;
-            width: 15%;
+            width: 20%;
+            max-width: 250px;
             background-color: f8695a;
             color: white;
-            font-size: 35px;
+            font-size: 35;
             font-family: Impact;
             font-weight: 100;
 }
@@ -75,9 +77,13 @@ body {
                     line-height: 3;
 }
 
+.product_img {
+     max-width: 80%; 
+}
+
 .product_description {
                      color: #abadad;
-                     width: 27%;
+                     width: 60%;
                      font-size: 25px;
                      font-family: LFT Etica;
                      font-weight: 100;
