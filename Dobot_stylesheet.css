@@ -22,7 +22,13 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+    box-sizing: border-box;
 }
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -45,80 +51,103 @@ table {
 }
 
 body {
-     background-color: 1a2325;
-     padding:  2% 2% 2% 2%;
-     
+    background-color: 1a2325;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;    
 }
+
 .dobot_logo {
-            text-align: center;
-            width: 20%;
-            max-width: 250px;
-            background-color: f8695a;
-            color: white;
-            font-size: 35;
-            font-family: Impact;
-            font-weight: 100;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    background-color: f8695a;
+    line-height: 95px;
+    color: white;
+    font-size: 30;
+    font-family: Impact;
+    font-weight: 100;
 }
 
 .product_heading {
-              color: white;
-              width: 30%;
-              font-size: 35px;
-              font-family: Quatro Slab;
-              font-weight: 100; 
-              padding-top: 95px;              
+    color: white;
+    font-size: 40px;
+    font-family: Quatro Slab;
+    font-weight: 100; 
+    padding-top: 55px;              
 }
 
 .product_subheading {
-                    color: #555a5b;
-                    font-size: 25px;
-                    font-family: LFT Etica;
-                    font-weight: 100; 
-                    line-height: 3;
+    color: #555a5b;
+    font-size: 25px;
+    font-family: LFT Etica;
+    font-weight: 100; 
+    line-height: 2;
 }
 
 .product_img {
-     max-width: 80%; 
+    width: 515px;     
 }
 
 .product_description {
-                     color: #abadad;
-                     width: 60%;
-                     font-size: 25px;
-                     font-family: LFT Etica;
-                     font-weight: 100;
-                     line-height: 1.5;
-                     padding:  20px 0px 20px 0px;
+    color: #abadad;
+    width: 515px;
+    font-size: 25px;
+    font-family: LFT Etica;
+    font-weight: 100;
+    line-height: 1.5;
+    padding:  20px 0px 20px 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.product_link a{
+    display: block;      
+    color: #01ccce;
+    font-size: 25px;
+    font-family: LFT Etica;
+    font-weight: 100;
+    width: 320px;
+    margin: 0px 0px 20px 0px;
 }
 
 .product_link {
-               display: block;      
-               color: #01ccce;
-               font-size: 25px;
-               font-family: LFT Etica;
-               font-weight: 100;
-               border-bottom: 2px dotted white;
-               padding: 10px 0px 20px 0px;
-               margin: 0px 0px 20px 0px;
+    display: block;      
+    border-bottom: 2px dotted white;
+    padding: 10px 0px 20px 0px;
+    margin: 0px 0px 20px 0px;
 }
 
 .product_price {
-               color: white;
-               font-size: 25px;
-               font-family: Quatro Slab;
-               font-weight: 100;
+    color: white; 
+    font-size: 30px;
+    font-family: Quatro Slab;
+    font-weight: 100;
 }
-
+/*
 .product_button {
-             background-color: #01ccce;
-             color: white;
-             font-size: 25px;
-             font-family: LFT Etica;
-             font-weight: 100;            
+    background-color: #01ccce;
+    color: white;
+    font-size: 25px;
+    font-family: LFT Etica;            
+}
+*/
+input[type="button"] { 
+    text-decoration: none;
+    background-color: #01ccce;
+    margin-left: 20px;
+    border: 0px;
+    padding: 12px 25px 12px 25px;
+    color: white;
+    font-size: 23px;
+    font-family: LFT Etica;
+    cursor: pointer;
 }
 
-.item_separator {
-             height: 1px;
-             border-bottom:1px solid white;
-             margin: 40px 0 40px 0;
+.product_divider {
+    margin-top: 155px;
+    margin-bottom: -40;
+    border-bottom: 1px solid white;
 }
