@@ -1,0 +1,16 @@
+1) Hover and create button with stripes 
+diagonal 45 degrees
+dark part is 01c2c3
+outside border is 4dd9da
+button background 01ccce
+"every other diagonal"
+
+
+2) make "transition" at .25 sec and stays until hover off
+
+3) refactor the CSS
+- order of elements/classes
+- zeros
+- short-hand extra declarations
+- establish own way of ordering declarations - read about other ways
+   - ie abc, length (bad), inspector order ie how firebug, or how space is taken up 

@@ -51,7 +51,8 @@ table {
 }
 
 body {
-    background-color: 1a2325;
+    border-top: 2px solid #f8695a;
+    background-color: #1a2325;
     padding-left: 25px;
     padding-right: 25px;
     padding-bottom: 25px;    
@@ -61,17 +62,17 @@ body {
     text-align: center;
     width: 100px;
     height: 100px;
-    background-color: f8695a;
+    background-color: #f8695a;
     line-height: 95px;
     color: white;
-    font-size: 30;
+    font-size: 30px;
     font-family: Impact;
     font-weight: 100;
 }
 
 .product_heading {
     color: white;
-    font-size: 40px;
+    font-size: 36px;
     font-family: Quatro Slab;
     font-weight: 100; 
     padding-top: 55px;              
@@ -79,75 +80,67 @@ body {
 
 .product_subheading {
     color: #555a5b;
-    font-size: 25px;
+    font-size: 16px;
     font-family: LFT Etica;
     font-weight: 100; 
     line-height: 2;
+    padding-bottom: 24px;
 }
 
 .product_img {
-    width: 515px;     
+    width: 100%; 
+    border: 6px solid white;
+    margin-bottom: 24px;
 }
 
 .product_description {
     color: #abadad;
-    width: 515px;
-    font-size: 25px;
+    font-size: 16px;
     font-family: LFT Etica;
     font-weight: 100;
     line-height: 1.5;
-    padding:  20px 0px 20px 0px;
+    padding-bottom: 12px;
 }
 
 a {
     text-decoration: none;
 }
 
-.product_link a{
-    display: block;      
-    color: #01ccce;
-    font-size: 25px;
-    font-family: LFT Etica;
-    font-weight: 100;
-    width: 320px;
-    margin: 0px 0px 20px 0px;
-}
-
 .product_link {
     display: block;      
-    border-bottom: 2px dotted white;
-    padding: 10px 0px 20px 0px;
-    margin: 0px 0px 20px 0px;
+    border-bottom: 1px dotted rgba(255, 255, 255, 0.10);      
+    color: #01ccce;
+    font-size: 16px;
+    font-family: LFT Etica;
+    font-weight: 100;
+    margin: 24px 0px 32px 0px;
+    padding-bottom: 24px;
 }
 
 .product_price {
     color: white; 
-    font-size: 30px;
+    font-size: 20px;
     font-family: Quatro Slab;
     font-weight: 100;
 }
-/*
-.product_button {
-    background-color: #01ccce;
-    color: white;
-    font-size: 25px;
-    font-family: LFT Etica;            
-}
-*/
-input[type="button"] { 
+
+.product_arrow {
+    font-family: arial, sans-serif;
+} 
+
+.product_button { 
     text-decoration: none;
     background-color: #01ccce;
-    margin-left: 20px;
-    border: 0px;
+    margin: 0px 0px 72px 20px;
+    border: 0;
     padding: 12px 25px 12px 25px;
     color: white;
-    font-size: 23px;
+    font-size: 14px;
     font-family: LFT Etica;
+    font-weight: 600;
     cursor: pointer;
 }
 
-.product_divider {
-    margin-top: 155px;
-    margin-bottom: -40;
-    border-bottom: 1px solid white;
+.product {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
