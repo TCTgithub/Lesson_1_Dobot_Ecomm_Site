@@ -129,7 +129,6 @@ a {
 } 
 
 .product_button { 
-    text-decoration: none;
     background-color: #01ccce;
     margin: 0px 0px 72px 20px;
     border: 0;
@@ -138,7 +137,19 @@ a {
     font-size: 14px;
     font-family: LFT Etica;
     font-weight: 600;
-    cursor: pointer;
+    cursor: pointer
+}
+
+.product_button:hover { 
+    background-color: #01c2c3;
+    margin: 0px 0px 72px 20px;
+    border: 1px solid #4dd9da;
+    padding: 12px 25px 12px 25px;
+    color: white;
+    font-size: 14px;
+    font-family: LFT Etica;
+    font-weight: 600;
+    cursor: pointer
 }
 
 .product {
