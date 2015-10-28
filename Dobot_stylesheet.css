@@ -130,9 +130,11 @@ a {
 
 .product_button { 
     background-color: #01ccce;
+	border: 1px solid #1a2325;
     margin: 0px 0px 72px 20px;
-    border: 0;
     padding: 12px 25px 12px 25px;
+	width:130px; 
+	height:40px;
     color: white;
     font-size: 14px;
     font-family: LFT Etica;
@@ -141,15 +143,11 @@ a {
 }
 
 .product_button:hover { 
-    background-color: #01c2c3;
-    margin: 0px 0px 72px 20px;
     border: 1px solid #4dd9da;
-    padding: 12px 25px 12px 25px;
-    color: white;
-    font-size: 14px;
-    font-family: LFT Etica;
-    font-weight: 600;
-    cursor: pointer
+	background: repeating-linear-gradient(45deg, #01ccce, #01ccce 5px, #01c2c3 2px, #01c2c3 10px);
+    width:130px; 
+	height:40px; 
+	color:white;
 }
 
 .product {
