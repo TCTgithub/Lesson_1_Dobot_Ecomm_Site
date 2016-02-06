@@ -102,33 +102,20 @@ body {
     padding-bottom: 12px;
 }
 
+a {
+    text-decoration: none;
+}
+
 .product_link {
-    display: block;
+    display: block;      
+    border-bottom: 1px dotted rgba(255, 255, 255, 0.10);      
     color: #01ccce;
-    border-bottom: 1px dotted rgba(255, 255, 255, 0.10);
     font-size: 16px;
     font-family: LFT Etica;
     font-weight: 100;
     margin: 24px 0px 32px 0px;
     padding-bottom: 24px;
 }
-
-.product_link a:link {
-    text-decoration: none;
-    color: #01ccce;
-}
-
-.product_link a:hover {
-    color: #ffffff;
-}
-
-.product_link a:active {
-    color: #323299;
-}
-
-.product_arrow {
-    font-family: arial, sans-serif;
-} 
 
 .product_price {
     color: white; 
@@ -137,47 +124,10 @@ body {
     font-weight: 100;
 }
 
-.product {
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
-}
+.product_arrow {
+    font-family: arial, sans-serif;
+} 
 
-<<<<<<< HEAD
-.puchase_button {
-    /*display: inline-block;*/
-    border: 1px solid #4dd9da;
-    margin: 0px 0px 72px 20px;
-    padding: 12px 25px 12px 25px;
-    width:130px; 
-    height:40px;
-    color: white;
-    font-size: 14px;
-    font-family: LFT Etica;
-    font-weight: 600;
-    text-decoration: none;
-    background-color: #01ccce;
-    cursor: pointer;
-}
-.purchase_button:after {
-    text-decoration: none;
-    content: '';
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: repeating-linear-gradient(
-      45deg,
-      #01ccce,
-      #01ccce 5px,
-      #01c2c3 2px,
-      #01c2c3 10px      
-     );
-    transition: opacity .25s ease-out;
-    z-index: 2;
-    opacity: 0;
-}
-.purchase_button:hover:after {
-    opacity: 1;
-=======
 .product {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
 
@@ -214,5 +164,4 @@ body {
 .product_button span {
   position: relative;
   z-index: 3;
->>>>>>> origin/master
 }
