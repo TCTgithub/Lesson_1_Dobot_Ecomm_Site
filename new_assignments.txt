@@ -5,7 +5,6 @@ outside border is 4dd9da
 button background 01ccce
 "every other diagonal"
 
-
 2) make "transition" at .25 sec and stays until hover off
 
 3) refactor the CSS
