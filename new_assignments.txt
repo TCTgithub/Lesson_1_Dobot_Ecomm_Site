@@ -12,4 +12,4 @@ button background 01ccce
 - zeros
 - short-hand extra declarations
 - establish own way of ordering declarations - read about other ways
-   - ie abc, length (bad), inspector order ie how firebug, or how space is taken up 
+- ie abc, length (bad), inspector order ie how firebug, or how space is taken up 
