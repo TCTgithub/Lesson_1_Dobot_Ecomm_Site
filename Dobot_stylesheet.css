@@ -16,133 +16,141 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
 }
 
 *, *:before, *:after {
-    box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-    display: block;
+  display: block;
 }
+
 ol, ul {
-    list-style: none;
+  list-style: none;
 }
+
 blockquote, q {
-    quotes: none;
+  quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
-    content: '';
-    content: none;
+  content: '';
+  content: none;
 }
+
 table {
-    border-collapse: collapse;
-    border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 body {
-    border-top: 2px solid #f8695a;
-    background-color: #1a2325;
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-bottom: 25px;    
+  border-top: 2px solid #f8695a;
+  background-color: #1a2325;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 25px;    
 }
 
 .dobot_logo {
-    text-align: center;
-    width: 100px;
-    height: 100px;
-    background-color: #f8695a;
-    line-height: 95px;
-    color: white;
-    font-size: 30px;
-    font-family: Impact;
-    font-weight: 100;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  background-color: #f8695a;
+  line-height: 95px;
+  color: white;
+  font-size: 30px;
+  font-family: Impact;
+  font-weight: 100;
 }
 
 .product_heading {
-    color: white;
-    font-size: 36px;
-    font-family: Quatro Slab;
-    font-weight: 100; 
-    padding-top: 55px;              
+  color: white;
+  font-size: 36px;
+  font-family: Quatro Slab;
+  font-weight: 100; 
+  padding-top: 55px;              
 }
 
 .product_subheading {
-    color: #555a5b;
-    font-size: 16px;
-    font-family: LFT Etica;
-    font-weight: 100; 
-    line-height: 2;
-    padding-bottom: 24px;
+  color: #555a5b;
+  font-size: 16px;
+  font-family: LFT Etica;
+  font-weight: 100; 
+  line-height: 2;
+  padding-bottom: 24px;
 }
 
 .product_img {
-    width: 100%; 
-    border: 6px solid white;
-    margin-bottom: 24px;
+  width: 100%; 
+  border: 6px solid white;
+  margin-bottom: 24px;
 }
 
 .product_description {
-    color: #abadad;
-    font-size: 16px;
-    font-family: LFT Etica;
-    font-weight: 100;
-    line-height: 1.5;
-    padding-bottom: 12px;
+  color: #abadad;
+  font-size: 16px;
+  font-family: LFT Etica;
+  font-weight: 100;
+  line-height: 1.5;
+  padding-bottom: 12px;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
+}
+
+span a:visited {
+  color: rgba(1, 204, 206, 1);
 }
 
 .product_link {
-    display: block;      
-    border-bottom: 1px dotted rgba(255, 255, 255, 0.10);      
-    color: #01ccce;
-    font-size: 16px;
-    font-family: LFT Etica;
-    font-weight: 100;
-    margin: 24px 0px 32px 0px;
-    padding-bottom: 24px;
+  display: block;      
+  border-bottom: 1px dotted rgba(255, 255, 255, 0.10);      
+  color: #01ccce;
+  font-size: 16px;
+  font-family: LFT Etica;
+  font-weight: 100;
+  margin: 24px 0px 32px 0px;
+  padding-bottom: 24px;
 }
 
 .product_price {
-    color: white; 
-    font-size: 20px;
-    font-family: Quatro Slab;
-    font-weight: 100;
+  color: white;
+  margin-right: 20px; 
+  font-size: 20px;
+  font-family: Quatro Slab;
+  font-weight: 100;
 }
 
 .product_arrow {
-    font-family: arial, sans-serif;
+  font-family: arial, sans-serif;
 } 
 
 .product {
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
-
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .product_button {
   display: inline-block;
+  margin: 5px 5px 35px 5px;
   padding: 12px 25px 12px 25px;
   font-size: 14px;
   color: white;
   font-family: LFT Etica;
   text-decoration: none;
-  border: 1px solid #1a2325;
   position: relative;
-  background-color: #01ccce;
+  background-color: rgba(1, 204, 206, 1);
   z-index: 1;
 }
 
@@ -158,9 +166,11 @@ a {
   z-index: 2;
   opacity: 0;
 }
+
 .product_button:hover:after {
   opacity: 1;
 }
+
 .product_button span {
   position: relative;
   z-index: 3;
