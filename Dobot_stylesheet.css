@@ -106,18 +106,22 @@ body {
   padding-bottom: 12px;
 }
 
-a {
+.product_link a:link {
   text-decoration: none;
+  color: rgba(1, 204, 206, 1);
 }
 
-span a:visited {
-  color: rgba(1, 204, 206, 1);
+.product_link a:hover {
+  color: rgba(255, 255, 255, 1);
+}
+
+.product_link a:visited {
+  color: blue;
 }
 
 .product_link {
   display: block;      
   border-bottom: 1px dotted rgba(255, 255, 255, 0.10);      
-  color: #01ccce;
   font-size: 16px;
   font-family: LFT Etica;
   font-weight: 100;
